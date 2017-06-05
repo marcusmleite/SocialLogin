@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492C7E221EE59AFD002CC225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E211EE59AFD002CC225 /* AppDelegate.swift */; };
+		492C7E241EE59AFD002CC225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E231EE59AFD002CC225 /* ViewController.swift */; };
+		492C7E271EE59AFD002CC225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E251EE59AFD002CC225 /* Main.storyboard */; };
+		492C7E291EE59AFD002CC225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E281EE59AFD002CC225 /* Assets.xcassets */; };
+		492C7E2C1EE59AFD002CC225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E2A1EE59AFD002CC225 /* LaunchScreen.storyboard */; };
+		492C7E371EE59AFD002CC225 /* omaLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E361EE59AFD002CC225 /* omaLoginTests.swift */; };
+		492C7E421EE59AFD002CC225 /* omaLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		492C7E331EE59AFD002CC225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492C7E161EE59AFD002CC225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492C7E1D1EE59AFD002CC225;
+			remoteInfo = omaLogin;
+		};
+		492C7E3E1EE59AFD002CC225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492C7E161EE59AFD002CC225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 492C7E1D1EE59AFD002CC225;
+			remoteInfo = omaLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		492C7E1E1EE59AFD002CC225 /* omaLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omaLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C7E211EE59AFD002CC225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		492C7E231EE59AFD002CC225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492C7E261EE59AFD002CC225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		492C7E281EE59AFD002CC225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		492C7E2B1EE59AFD002CC225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		492C7E2D1EE59AFD002CC225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C7E321EE59AFD002CC225 /* omaLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omaLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C7E361EE59AFD002CC225 /* omaLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omaLoginTests.swift; sourceTree = "<group>"; };
+		492C7E381EE59AFD002CC225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C7E3D1EE59AFD002CC225 /* omaLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omaLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omaLoginUITests.swift; sourceTree = "<group>"; };
+		492C7E431EE59AFD002CC225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492C7E1B1EE59AFD002CC225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C7E2F1EE59AFD002CC225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C7E3A1EE59AFD002CC225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		492C7E151EE59AFD002CC225 = {
+			isa = PBXGroup;
+			children = (
+				492C7E201EE59AFD002CC225 /* omaLogin */,
+				492C7E351EE59AFD002CC225 /* omaLoginTests */,
+				492C7E401EE59AFD002CC225 /* omaLoginUITests */,
+				492C7E1F1EE59AFD002CC225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		492C7E1F1EE59AFD002CC225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				492C7E1E1EE59AFD002CC225 /* omaLogin.app */,
+				492C7E321EE59AFD002CC225 /* omaLoginTests.xctest */,
+				492C7E3D1EE59AFD002CC225 /* omaLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		492C7E201EE59AFD002CC225 /* omaLogin */ = {
+			isa = PBXGroup;
+			children = (
+				492C7E211EE59AFD002CC225 /* AppDelegate.swift */,
+				492C7E231EE59AFD002CC225 /* ViewController.swift */,
+				492C7E251EE59AFD002CC225 /* Main.storyboard */,
+				492C7E281EE59AFD002CC225 /* Assets.xcassets */,
+				492C7E2A1EE59AFD002CC225 /* LaunchScreen.storyboard */,
+				492C7E2D1EE59AFD002CC225 /* Info.plist */,
+			);
+			path = omaLogin;
+			sourceTree = "<group>";
+		};
+		492C7E351EE59AFD002CC225 /* omaLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				492C7E361EE59AFD002CC225 /* omaLoginTests.swift */,
+				492C7E381EE59AFD002CC225 /* Info.plist */,
+			);
+			path = omaLoginTests;
+			sourceTree = "<group>";
+		};
+		492C7E401EE59AFD002CC225 /* omaLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */,
+				492C7E431EE59AFD002CC225 /* Info.plist */,
+			);
+			path = omaLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		492C7E1D1EE59AFD002CC225 /* omaLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C7E461EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLogin" */;
+			buildPhases = (
+				492C7E1A1EE59AFD002CC225 /* Sources */,
+				492C7E1B1EE59AFD002CC225 /* Frameworks */,
+				492C7E1C1EE59AFD002CC225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omaLogin;
+			productName = omaLogin;
+			productReference = 492C7E1E1EE59AFD002CC225 /* omaLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		492C7E311EE59AFD002CC225 /* omaLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C7E491EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginTests" */;
+			buildPhases = (
+				492C7E2E1EE59AFD002CC225 /* Sources */,
+				492C7E2F1EE59AFD002CC225 /* Frameworks */,
+				492C7E301EE59AFD002CC225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492C7E341EE59AFD002CC225 /* PBXTargetDependency */,
+			);
+			name = omaLoginTests;
+			productName = omaLoginTests;
+			productReference = 492C7E321EE59AFD002CC225 /* omaLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		492C7E3C1EE59AFD002CC225 /* omaLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492C7E4C1EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginUITests" */;
+			buildPhases = (
+				492C7E391EE59AFD002CC225 /* Sources */,
+				492C7E3A1EE59AFD002CC225 /* Frameworks */,
+				492C7E3B1EE59AFD002CC225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492C7E3F1EE59AFD002CC225 /* PBXTargetDependency */,
+			);
+			name = omaLoginUITests;
+			productName = omaLoginUITests;
+			productReference = 492C7E3D1EE59AFD002CC225 /* omaLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492C7E161EE59AFD002CC225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rodrigo Vianna";
+				TargetAttributes = {
+					492C7E1D1EE59AFD002CC225 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W2EVZPD948;
+						ProvisioningStyle = Automatic;
+					};
+					492C7E311EE59AFD002CC225 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W2EVZPD948;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 492C7E1D1EE59AFD002CC225;
+					};
+					492C7E3C1EE59AFD002CC225 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W2EVZPD948;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 492C7E1D1EE59AFD002CC225;
+					};
+				};
+			};
+			buildConfigurationList = 492C7E191EE59AFD002CC225 /* Build configuration list for PBXProject "omaLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 492C7E151EE59AFD002CC225;
+			productRefGroup = 492C7E1F1EE59AFD002CC225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				492C7E1D1EE59AFD002CC225 /* omaLogin */,
+				492C7E311EE59AFD002CC225 /* omaLoginTests */,
+				492C7E3C1EE59AFD002CC225 /* omaLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		492C7E1C1EE59AFD002CC225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C7E2C1EE59AFD002CC225 /* LaunchScreen.storyboard in Resources */,
+				492C7E291EE59AFD002CC225 /* Assets.xcassets in Resources */,
+				492C7E271EE59AFD002CC225 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C7E301EE59AFD002CC225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C7E3B1EE59AFD002CC225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492C7E1A1EE59AFD002CC225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C7E241EE59AFD002CC225 /* ViewController.swift in Sources */,
+				492C7E221EE59AFD002CC225 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C7E2E1EE59AFD002CC225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C7E371EE59AFD002CC225 /* omaLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		492C7E391EE59AFD002CC225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492C7E421EE59AFD002CC225 /* omaLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		492C7E341EE59AFD002CC225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492C7E1D1EE59AFD002CC225 /* omaLogin */;
+			targetProxy = 492C7E331EE59AFD002CC225 /* PBXContainerItemProxy */;
+		};
+		492C7E3F1EE59AFD002CC225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 492C7E1D1EE59AFD002CC225 /* omaLogin */;
+			targetProxy = 492C7E3E1EE59AFD002CC225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		492C7E251EE59AFD002CC225 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492C7E261EE59AFD002CC225 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		492C7E2A1EE59AFD002CC225 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				492C7E2B1EE59AFD002CC225 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		492C7E441EE59AFD002CC225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		492C7E451EE59AFD002CC225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		492C7E471EE59AFD002CC225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2EVZPD948;
+				INFOPLIST_FILE = omaLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oma.omaLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		492C7E481EE59AFD002CC225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2EVZPD948;
+				INFOPLIST_FILE = omaLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oma.omaLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		492C7E4A1EE59AFD002CC225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W2EVZPD948;
+				INFOPLIST_FILE = omaLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oma.omaLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omaLogin.app/omaLogin";
+			};
+			name = Debug;
+		};
+		492C7E4B1EE59AFD002CC225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W2EVZPD948;
+				INFOPLIST_FILE = omaLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oma.omaLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omaLogin.app/omaLogin";
+			};
+			name = Release;
+		};
+		492C7E4D1EE59AFD002CC225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W2EVZPD948;
+				INFOPLIST_FILE = omaLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oma.omaLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = omaLogin;
+			};
+			name = Debug;
+		};
+		492C7E4E1EE59AFD002CC225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W2EVZPD948;
+				INFOPLIST_FILE = omaLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oma.omaLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = omaLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		492C7E191EE59AFD002CC225 /* Build configuration list for PBXProject "omaLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C7E441EE59AFD002CC225 /* Debug */,
+				492C7E451EE59AFD002CC225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492C7E461EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C7E471EE59AFD002CC225 /* Debug */,
+				492C7E481EE59AFD002CC225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		492C7E491EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C7E4A1EE59AFD002CC225 /* Debug */,
+				492C7E4B1EE59AFD002CC225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		492C7E4C1EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492C7E4D1EE59AFD002CC225 /* Debug */,
+				492C7E4E1EE59AFD002CC225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492C7E161EE59AFD002CC225 /* Project object */;
+}
