@@ -10,6 +10,7 @@ target 'omaLogin' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'FBSDKLoginKit'
 
   target 'omaLoginTests' do
     inherit! :search_paths

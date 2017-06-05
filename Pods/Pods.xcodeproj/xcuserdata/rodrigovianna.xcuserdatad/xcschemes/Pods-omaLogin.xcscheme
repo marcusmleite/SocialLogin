@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE8FA0BC50FA3B4AD2DED254A2580451"
+               BlueprintIdentifier = "0F8699DC3F185764C2FD017509091AED"
                BuildableName = "Pods_omaLogin.framework"
                BlueprintName = "Pods-omaLogin"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE8FA0BC50FA3B4AD2DED254A2580451"
+            BlueprintIdentifier = "0F8699DC3F185764C2FD017509091AED"
             BuildableName = "Pods_omaLogin.framework"
             BlueprintName = "Pods-omaLogin"
             ReferencedContainer = "container:Pods.xcodeproj">
