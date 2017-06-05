@@ -15,6 +15,11 @@
 		492C7E371EE59AFD002CC225 /* omaLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E361EE59AFD002CC225 /* omaLoginTests.swift */; };
 		492C7E421EE59AFD002CC225 /* omaLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */; };
 		492C7E501EE59B35002CC225 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E4F1EE59B35002CC225 /* GoogleService-Info.plist */; };
+		492C7E7D1EE5B31B002CC225 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E7C1EE5B31B002CC225 /* FancyView.swift */; };
+		492C7E801EE5B3AC002CC225 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E7F1EE5B3AC002CC225 /* Constants.swift */; };
+		492C7E821EE5B642002CC225 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E811EE5B642002CC225 /* FancyButton.swift */; };
+		492C7E841EE5B908002CC225 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E831EE5B908002CC225 /* FancyField.swift */; };
+		492C7E861EE5BA9E002CC225 /* FancyLGBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E851EE5BA9E002CC225 /* FancyLGBtn.swift */; };
 		7B51AF546D0D31AFD56313B1 /* Pods_omaLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FFC6FC48AA835AE5D25720 /* Pods_omaLoginUITests.framework */; };
 		99345F90CADFB7BE40E071FF /* Pods_omaLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DE3B2E266C461D1A2FA08D /* Pods_omaLoginTests.framework */; };
 		AD449E3667D9D79771E810F2 /* Pods_omaLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0CB8A29829B32108DEE24A /* Pods_omaLogin.framework */; };
@@ -55,6 +60,11 @@
 		492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omaLoginUITests.swift; sourceTree = "<group>"; };
 		492C7E431EE59AFD002CC225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		492C7E4F1EE59B35002CC225 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		492C7E7C1EE5B31B002CC225 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		492C7E7F1EE5B3AC002CC225 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		492C7E811EE5B642002CC225 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		492C7E831EE5B908002CC225 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		492C7E851EE5BA9E002CC225 /* FancyLGBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyLGBtn.swift; sourceTree = "<group>"; };
 		50DE3B2E266C461D1A2FA08D /* Pods_omaLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omaLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		565F71AD97F740D7C38DD5F6 /* Pods-omaLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omaLoginUITests/Pods-omaLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C9BA711F1653E0A504C2D07 /* Pods-omaLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-omaLogin/Pods-omaLogin.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +149,7 @@
 		492C7E201EE59AFD002CC225 /* omaLogin */ = {
 			isa = PBXGroup;
 			children = (
+				492C7E7E1EE5B39D002CC225 /* Util */,
 				492C7E531EE59C2B002CC225 /* Controller */,
 				492C7E521EE59C27002CC225 /* View */,
 				492C7E511EE59C20002CC225 /* Model */,
@@ -180,6 +191,10 @@
 		492C7E521EE59C27002CC225 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				492C7E7C1EE5B31B002CC225 /* FancyView.swift */,
+				492C7E811EE5B642002CC225 /* FancyButton.swift */,
+				492C7E831EE5B908002CC225 /* FancyField.swift */,
+				492C7E851EE5BA9E002CC225 /* FancyLGBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,6 +205,14 @@
 				492C7E231EE59AFD002CC225 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		492C7E7E1EE5B39D002CC225 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				492C7E7F1EE5B3AC002CC225 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,8 +500,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492C7E841EE5B908002CC225 /* FancyField.swift in Sources */,
 				492C7E241EE59AFD002CC225 /* SignInVC.swift in Sources */,
 				492C7E221EE59AFD002CC225 /* AppDelegate.swift in Sources */,
+				492C7E861EE5BA9E002CC225 /* FancyLGBtn.swift in Sources */,
+				492C7E7D1EE5B31B002CC225 /* FancyView.swift in Sources */,
+				492C7E801EE5B3AC002CC225 /* Constants.swift in Sources */,
+				492C7E821EE5B642002CC225 /* FancyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
