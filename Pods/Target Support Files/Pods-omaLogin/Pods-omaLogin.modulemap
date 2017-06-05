@@ -1,0 +1,6 @@
+framework module Pods_omaLogin {
+  umbrella header "Pods-omaLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

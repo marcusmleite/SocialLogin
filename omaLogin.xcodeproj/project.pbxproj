@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		492C7E221EE59AFD002CC225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E211EE59AFD002CC225 /* AppDelegate.swift */; };
-		492C7E241EE59AFD002CC225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E231EE59AFD002CC225 /* ViewController.swift */; };
+		492C7E241EE59AFD002CC225 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E231EE59AFD002CC225 /* SignInVC.swift */; };
 		492C7E271EE59AFD002CC225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E251EE59AFD002CC225 /* Main.storyboard */; };
 		492C7E291EE59AFD002CC225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E281EE59AFD002CC225 /* Assets.xcassets */; };
 		492C7E2C1EE59AFD002CC225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E2A1EE59AFD002CC225 /* LaunchScreen.storyboard */; };
 		492C7E371EE59AFD002CC225 /* omaLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E361EE59AFD002CC225 /* omaLoginTests.swift */; };
 		492C7E421EE59AFD002CC225 /* omaLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */; };
+		492C7E501EE59B35002CC225 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E4F1EE59B35002CC225 /* GoogleService-Info.plist */; };
+		7B51AF546D0D31AFD56313B1 /* Pods_omaLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FFC6FC48AA835AE5D25720 /* Pods_omaLoginUITests.framework */; };
+		99345F90CADFB7BE40E071FF /* Pods_omaLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DE3B2E266C461D1A2FA08D /* Pods_omaLoginTests.framework */; };
+		AD449E3667D9D79771E810F2 /* Pods_omaLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0CB8A29829B32108DEE24A /* Pods_omaLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A35A45DF72E7308BE113681 /* Pods-omaLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-omaLoginUITests/Pods-omaLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		172E3DA05FCB5F91A5982742 /* Pods-omaLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-omaLoginTests/Pods-omaLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		48FFC6FC48AA835AE5D25720 /* Pods_omaLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omaLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C7E1E1EE59AFD002CC225 /* omaLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omaLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C7E211EE59AFD002CC225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		492C7E231EE59AFD002CC225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		492C7E231EE59AFD002CC225 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		492C7E261EE59AFD002CC225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		492C7E281EE59AFD002CC225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492C7E2B1EE59AFD002CC225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		492C7E3D1EE59AFD002CC225 /* omaLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omaLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C7E411EE59AFD002CC225 /* omaLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omaLoginUITests.swift; sourceTree = "<group>"; };
 		492C7E431EE59AFD002CC225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C7E4F1EE59B35002CC225 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50DE3B2E266C461D1A2FA08D /* Pods_omaLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omaLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565F71AD97F740D7C38DD5F6 /* Pods-omaLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omaLoginUITests/Pods-omaLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9BA711F1653E0A504C2D07 /* Pods-omaLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-omaLogin/Pods-omaLogin.release.xcconfig"; sourceTree = "<group>"; };
+		9410A606F647B7EAAD2EBFFC /* Pods-omaLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omaLoginTests/Pods-omaLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0CB8A29829B32108DEE24A /* Pods_omaLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omaLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27AAD81DA92E47E54D736BA /* Pods-omaLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omaLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omaLogin/Pods-omaLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD449E3667D9D79771E810F2 /* Pods_omaLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99345F90CADFB7BE40E071FF /* Pods_omaLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B51AF546D0D31AFD56313B1 /* Pods_omaLoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D83E3B0C8BCF544FAED4007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0CB8A29829B32108DEE24A /* Pods_omaLogin.framework */,
+				50DE3B2E266C461D1A2FA08D /* Pods_omaLoginTests.framework */,
+				48FFC6FC48AA835AE5D25720 /* Pods_omaLoginUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27AEA0FE76AC598C60CB6D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E27AAD81DA92E47E54D736BA /* Pods-omaLogin.debug.xcconfig */,
+				8C9BA711F1653E0A504C2D07 /* Pods-omaLogin.release.xcconfig */,
+				9410A606F647B7EAAD2EBFFC /* Pods-omaLoginTests.debug.xcconfig */,
+				172E3DA05FCB5F91A5982742 /* Pods-omaLoginTests.release.xcconfig */,
+				565F71AD97F740D7C38DD5F6 /* Pods-omaLoginUITests.debug.xcconfig */,
+				0A35A45DF72E7308BE113681 /* Pods-omaLoginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		492C7E151EE59AFD002CC225 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				492C7E351EE59AFD002CC225 /* omaLoginTests */,
 				492C7E401EE59AFD002CC225 /* omaLoginUITests */,
 				492C7E1F1EE59AFD002CC225 /* Products */,
+				27AEA0FE76AC598C60CB6D38 /* Pods */,
+				0D83E3B0C8BCF544FAED4007 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,15 @@
 		492C7E201EE59AFD002CC225 /* omaLogin */ = {
 			isa = PBXGroup;
 			children = (
+				492C7E531EE59C2B002CC225 /* Controller */,
+				492C7E521EE59C27002CC225 /* View */,
+				492C7E511EE59C20002CC225 /* Model */,
 				492C7E211EE59AFD002CC225 /* AppDelegate.swift */,
-				492C7E231EE59AFD002CC225 /* ViewController.swift */,
 				492C7E251EE59AFD002CC225 /* Main.storyboard */,
 				492C7E281EE59AFD002CC225 /* Assets.xcassets */,
 				492C7E2A1EE59AFD002CC225 /* LaunchScreen.storyboard */,
 				492C7E2D1EE59AFD002CC225 /* Info.plist */,
+				492C7E4F1EE59B35002CC225 /* GoogleService-Info.plist */,
 			);
 			path = omaLogin;
 			sourceTree = "<group>";
@@ -125,6 +170,28 @@
 			path = omaLoginUITests;
 			sourceTree = "<group>";
 		};
+		492C7E511EE59C20002CC225 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		492C7E521EE59C27002CC225 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		492C7E531EE59C2B002CC225 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				492C7E231EE59AFD002CC225 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492C7E461EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLogin" */;
 			buildPhases = (
+				D424AFA51452F9CBE4521EB1 /* [CP] Check Pods Manifest.lock */,
 				492C7E1A1EE59AFD002CC225 /* Sources */,
 				492C7E1B1EE59AFD002CC225 /* Frameworks */,
 				492C7E1C1EE59AFD002CC225 /* Resources */,
+				820B4139D689AB994188FD87 /* [CP] Embed Pods Frameworks */,
+				F2CA3FA99FEEAE43E26FF121 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492C7E491EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginTests" */;
 			buildPhases = (
+				5C3BA85A224D806176CFF52C /* [CP] Check Pods Manifest.lock */,
 				492C7E2E1EE59AFD002CC225 /* Sources */,
 				492C7E2F1EE59AFD002CC225 /* Frameworks */,
 				492C7E301EE59AFD002CC225 /* Resources */,
+				684C9F381C4E8D3184E7546B /* [CP] Embed Pods Frameworks */,
+				A7A07A2856ED93452024C0EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492C7E4C1EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginUITests" */;
 			buildPhases = (
+				89B46908435F9D3319DA4EF8 /* [CP] Check Pods Manifest.lock */,
 				492C7E391EE59AFD002CC225 /* Sources */,
 				492C7E3A1EE59AFD002CC225 /* Frameworks */,
 				492C7E3B1EE59AFD002CC225 /* Resources */,
+				6314D0DAFE21C35885714823 /* [CP] Embed Pods Frameworks */,
+				3C6E8CF25431A961C7DF3D13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				492C7E2C1EE59AFD002CC225 /* LaunchScreen.storyboard in Resources */,
+				492C7E501EE59B35002CC225 /* GoogleService-Info.plist in Resources */,
 				492C7E291EE59AFD002CC225 /* Assets.xcassets in Resources */,
 				492C7E271EE59AFD002CC225 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +334,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C6E8CF25431A961C7DF3D13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omaLoginUITests/Pods-omaLoginUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C3BA85A224D806176CFF52C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6314D0DAFE21C35885714823 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omaLoginUITests/Pods-omaLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684C9F381C4E8D3184E7546B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omaLoginTests/Pods-omaLoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820B4139D689AB994188FD87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omaLogin/Pods-omaLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B46908435F9D3319DA4EF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A07A2856ED93452024C0EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omaLoginTests/Pods-omaLoginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D424AFA51452F9CBE4521EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CA3FA99FEEAE43E26FF121 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omaLogin/Pods-omaLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		492C7E1A1EE59AFD002CC225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492C7E241EE59AFD002CC225 /* ViewController.swift in Sources */,
+				492C7E241EE59AFD002CC225 /* SignInVC.swift in Sources */,
 				492C7E221EE59AFD002CC225 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +630,7 @@
 		};
 		492C7E471EE59AFD002CC225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27AAD81DA92E47E54D736BA /* Pods-omaLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2EVZPD948;
@@ -428,6 +644,7 @@
 		};
 		492C7E481EE59AFD002CC225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9BA711F1653E0A504C2D07 /* Pods-omaLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W2EVZPD948;
@@ -441,6 +658,7 @@
 		};
 		492C7E4A1EE59AFD002CC225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9410A606F647B7EAAD2EBFFC /* Pods-omaLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +674,7 @@
 		};
 		492C7E4B1EE59AFD002CC225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172E3DA05FCB5F91A5982742 /* Pods-omaLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +690,7 @@
 		};
 		492C7E4D1EE59AFD002CC225 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565F71AD97F740D7C38DD5F6 /* Pods-omaLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = W2EVZPD948;
@@ -485,6 +705,7 @@
 		};
 		492C7E4E1EE59AFD002CC225 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A35A45DF72E7308BE113681 /* Pods-omaLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = W2EVZPD948;
@@ -516,6 +737,7 @@
 				492C7E481EE59AFD002CC225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492C7E491EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +746,7 @@
 				492C7E4B1EE59AFD002CC225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492C7E4C1EE59AFD002CC225 /* Build configuration list for PBXNativeTarget "omaLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +755,7 @@
 				492C7E4E1EE59AFD002CC225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
