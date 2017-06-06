@@ -10,6 +10,7 @@ import UIKit
 import FBSDKLoginKit
 import FBSDKCoreKit
 import Firebase
+import SwiftKeychainWrapper
 
 class SignInVC: UIViewController, UITextFieldDelegate {
 
@@ -18,7 +19,7 @@ class SignInVC: UIViewController, UITextFieldDelegate {
    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         emailField.delegate = self
         passField.delegate = self
         
@@ -30,6 +31,12 @@ class SignInVC: UIViewController, UITextFieldDelegate {
         view.addGestureRecognizer(tap)
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID){
+            print("RODRIGO: ID Encontrado")
+            performSegue(withIdentifier: "feedSegue", sender: nil)
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -91,6 +98,9 @@ class SignInVC: UIViewController, UITextFieldDelegate {
                 print("RODRIGO: Nao autenticou FIREBASE")
             } else {
                 print("RODRIGO: Autenticou - FIREBASE")
+                if let user = user {
+                    self.completeSignIn(id: user.uid)
+                }
             }
         })
     }
@@ -101,21 +111,30 @@ class SignInVC: UIViewController, UITextFieldDelegate {
             FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
                 if error == nil {
                     print("RODRIGO: Email - Usuário autenticado - FIREBASE")
+                    if let user = user {
+                    self.completeSignIn(id: user.uid)
+                    }
                 } else {
                     FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
                         if error != nil{
                             print("RODRIGO: Email - Impossível autenticar - FIREBASE")
                         } else {
                             print("RODRIGO: Email - Usuário Criado - FIREBASE")
+                            if let user = user {
+                                self.completeSignIn(id: user.uid)
+                            }
                         }
                     })
                 }
             })
         }
-        
-        
     }
-    
+
+    func completeSignIn(id: String) {
+       let keychainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        print("RODRIGO: Dados salvos. KEYCHAIN \(keychainResult)")
+        performSegue(withIdentifier: "feedSegue", sender: nil)
+    }
     
     
 
